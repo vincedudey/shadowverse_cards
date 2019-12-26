@@ -1,0 +1,91 @@
+div{
+  color:white;
+  font: arial, sans-serif;
+}
+
+p{
+  color:white;
+}
+
+h1{
+  color:white;
+}
+
+.under{
+  z-index:1;
+}
+
+.over{
+  z-index:2;
+}
+
+.bronze{
+  position: relative;
+  background-image: linear-gradient(green, purple);
+  border-radius:25px;
+  margin-left: 80px;
+  margin-right: 80px;
+  overflow:hidden;
+  opacity:1;
+}
+
+.silver{
+  position: relative;
+  background-image: linear-gradient(#666699, #006666);
+  border-radius:25px;
+  margin-left: 80px;
+  margin-right: 80px;
+  overflow:hidden;
+  opacity:1;
+}
+
+.gold{
+  position: relative;
+  background-image: linear-gradient(#654321, #996633);
+  border-radius:25px;
+  margin-left: 80px;
+  margin-right: 80px;
+  overflow:hidden;
+  opacity:1;
+}
+
+.legendary{
+  position: relative;
+  background-image: linear-gradient(#3399ff, #ffffff, #9900ff);
+  border-radius:25px;
+  margin-left: 80px;
+  margin-right: 80px;
+  overflow:hidden;
+  opacity:1;
+
+}
+
+.text{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
